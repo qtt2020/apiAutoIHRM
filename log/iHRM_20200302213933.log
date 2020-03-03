@@ -1,0 +1,4 @@
+2020-03-02 21:39:34,282 INFO [root] [test_department.py(test01_login:32)] - 员工模块登录信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '77415fcb-83bb-45f3-b7c3-8609925d6bcc'}
+2020-03-02 21:39:34,778 INFO [root] [test_department.py(test03_department_message:49)] - 所有指定信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1205026000668569600', 'pid': None, 'companyId': '1', 'name': '技术部', 'code': None, 'managerId': None, 'manager': '东北王力宏1', 'introduce': None, 'createTime': None}}
+2020-03-02 21:39:34,949 INFO [root] [test_department.py(test04_add_department:56)] - 添加部门信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-02 21:39:35,123 INFO [root] [test_department.py(test05_upData_department:63)] - 修改部门信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

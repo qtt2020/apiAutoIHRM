@@ -1,0 +1,3 @@
+2020-03-03 11:58:39,186 INFO [root] [test_emp_params.py(test01_login:34)] - 员工模块登录信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '294f1ff5-6823-4940-bd39-07ceaa533ecd'}
+2020-03-03 11:58:39,656 INFO [root] [test_emp_params.py(test04_upData_emp:68)] - 员工模块修改员工信息为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-03 11:58:39,816 INFO [root] [test_emp_params.py(test05_delete_emp:75)] - 员工模块删除员工信息为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

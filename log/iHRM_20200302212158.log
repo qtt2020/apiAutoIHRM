@@ -1,0 +1,2 @@
+2020-03-02 21:21:58,581 INFO [root] [test_department.py(test01_login:32)] - 员工模块登录信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '62db9f2e-68a3-44f7-8f3f-e59c939e1d9d'}
+2020-03-02 21:21:59,060 INFO [root] [test_department.py(test03_add_department:48)] - 添加部门信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

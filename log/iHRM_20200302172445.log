@@ -1,0 +1,10 @@
+2020-03-02 17:24:45,425 INFO [root] [test_login.py(test01_login_success:26)] - 员工模块登录信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '86ca03da-f0f9-4e59-887b-115a0ea0afcc'}
+2020-03-02 17:24:45,598 INFO [root] [test_login.py(test02_mobile_error:34)] - 员工模块登录用户名不存在信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:45,758 INFO [root] [test_login.py(test03_password_error:42)] - 员工模块登录密码错误信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:45,920 INFO [root] [test_login.py(test04_mobile_is_none:50)] - 员工模块登录用户名为空信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:46,059 INFO [root] [test_login.py(test05_password_is_none:58)] - 员工模块登录密码为空信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:46,205 INFO [root] [test_login.py(test06_less_mobile_params:66)] - 员工模块登录少mobile参数信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:46,346 INFO [root] [test_login.py(test06_less_password_params:74)] - 员工模块登录少password参数信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:46,522 INFO [root] [test_login.py(test07_many_params:82)] - 员工模块登录多参信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5044ee97-6131-4138-a11b-a172f3c5e6ea'}
+2020-03-02 17:24:46,665 INFO [root] [test_login.py(test08_error_params:90)] - 员工模块登录错参信息为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-02 17:24:46,835 INFO [root] [test_login.py(test09_not_params:98)] - 员工模块登录无参信息为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

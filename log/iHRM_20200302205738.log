@@ -1,0 +1,2 @@
+2020-03-02 20:57:38,870 INFO [root] [test_department.py(test01_login:32)] - 员工模块登录信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e57a84ca-e851-4415-a3b9-c299b781a7a6'}
+2020-03-02 20:57:39,018 INFO [root] [test_department.py(test02_department_message:41)] - 部门信息为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
