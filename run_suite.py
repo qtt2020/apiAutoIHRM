@@ -15,7 +15,8 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestEmployeeParams))
 suite.addTest(unittest.makeSuite(TestLogin))
 # 设置路径
-filename = BASE_DIR+"/report/emp_{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+# filename = BASE_DIR+"/report/emp_{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+filename = BASE_DIR+"/report/ihrm_emp.html"
 # 打开测试报告文件
 with open(filename, "wb") as f:
     # 实例化HTMLTestRunner对象
