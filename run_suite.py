@@ -15,7 +15,7 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestEmployeeParams))
 suite.addTest(unittest.makeSuite(TestLogin))
 # 设置路径
-filename = BASE_DIR+"/report/ihem.html"
+filename = BASE_DIR+"/report/ihrm.html"
 # 打开测试报告文件
 with open(filename, "wb") as f:
     # 实例化HTMLTestRunner对象
